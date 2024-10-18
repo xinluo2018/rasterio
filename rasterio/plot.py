@@ -30,7 +30,6 @@ def get_plt():
         msg += "matplotlib required for plotting functions"
         raise ImportError(msg)
 
-
 def show(source, with_bounds=True, contour=False, contour_label_kws=None, indexes=None, 
          ax=None, title=None, transform=None, strech=True, clip_percent=None, **kwargs):
     """Display a raster or raster band using matplotlib.
